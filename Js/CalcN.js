@@ -57,6 +57,12 @@ function esIgual(){
     num1 = 0;
 }
 
+function deleteLastNum(){
+  var numMod = document.getElementById("resultat").value;
+  document.getElementById("resultat").value = numMod.substr(0, numMod.length - 1);
+  num1 = document.getElementById("resultat").value;
+}
+
 function refresh(){
     document.getElementById("resultat").value = num1;
 }
