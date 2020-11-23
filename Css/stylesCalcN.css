@@ -1,0 +1,39 @@
+h1 {
+  color: #600000;
+  margin-left: 12%;
+}
+
+input {
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+}
+
+input#coma {
+  margin-right: 54px;
+}
+
+input#clear {
+  margin-left: 10%;
+  width: 105px;
+}
+
+input#resultat {
+   width: 250px;
+   height: 50px;
+   margin-bottom: 5px;
+   margin-left: 10%;
+   font-size: 40px;
+   text-align: right;
+}
+
+input#margin {
+  margin-left: 10%;
+}
+
+input[type=image] {
+  width: 100px;
+  height: 100px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
