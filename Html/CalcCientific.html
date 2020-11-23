@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Page Title</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A brief page description">
+    <meta name="keywords" content="html,cheatsheet" />
+    <meta property="fb:admins" content="YourFacebookUsername" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="/Css/stylesCalcC.css">
+<!-- Prepare for second course -->
+    <script src="/Js/CalcC.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+</head>
+
+<form name="Calc">
+    <h1>Calculadora</h1>
+    <input type="textfield" id="resultat" name="ans" value="0">
+    <br>
+    <input type="button" id="clear" value="C" onClick="netejarText()">
+    <br>
+    <input type="button" id="margin" value="7" onClick="agafarNum('7')">
+    <input type="button" value="8" onClick="agafarNum('8')">
+    <input type="button"  value="9" onClick="agafarNum('9')">
+    <input type="button" value="/" onClick="operar(4)">
+    <br>
+    <input type="button" id="margin" value="4" onClick="agafarNum('4')">
+    <input type="button" value="5" onClick="agafarNum('5')">
+    <input type="button" value="6" onClick="agafarNum('6')">
+    <input type="button" value="*" onClick="operar(3)">
+    <br>
+    <input type="button" id="margin" value="1" onClick="agafarNum('1')">
+    <input type="button" value="2" onClick="agafarNum('2')">
+    <input type="button" value="3" onClick="agafarNum('3')">
+    <input type="button" value="-" onClick="operar(2)">
+    <br>
+    <input type="button" id="margin" value="0" onClick="agafarNum('0')">
+    <input type="button" value="," onClick="agafarComa()">
+    <input type="button" value="=" height="30" onClick="esIgual()">
+    <input type="button" value="+" onClick="operar(1)">
+
+</form>
+
+<body>
+<!-- Content -->
+  <input type="image" id="back" name="backImgButton" src="/Images/imgBack.png" alt="Back" onclick="window.history.back();">
+</body>
+</html>
