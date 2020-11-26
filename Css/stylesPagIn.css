@@ -7,11 +7,25 @@ body {
 
 h1 {
   color: white;
+  margin-top: 150px;
 }
 
-h2 {
+.date, .time {
   display: inline;
   color: white;
+}
+
+h3 {
+  display: inline;
+  color: white;
+}
+
+footer {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .container {
@@ -30,7 +44,7 @@ input[type=image] {
 
 .informacio {
   float: right;
-  margin: auto 10px 10px 10px;
+  margin: auto auto auto auto;
 }
 
 input[name="infoButton"] {
