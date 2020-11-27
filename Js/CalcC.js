@@ -79,8 +79,6 @@ function esIgual(){
     num1 = 0;
 }
 
-<<<<<<< HEAD
-=======
 function deleteLastNum(){
   var numMod = document.getElementById("resultat").value;
   document.getElementById("resultat").value = numMod.substr(0, numMod.length - 1);
@@ -132,7 +130,6 @@ function invertirSigne(){
   num1 = document.getElementById("resultat").value;
 }
 
->>>>>>> master
 function refresh(){
     document.getElementById("resultat").value = num1;
 }
