@@ -1,9 +1,14 @@
+var cargar = function() {
+  var cargarUser = localStorage.getItem('Usuari');
+  document.getElementById("lblUser").innerHTML = cargarUser;
+  localStorage.clear();
+};
+
+cargar();
+
 var num1 = 0;
 var num2 = 0;
 var res;
-var negative_digit =  false;
-var first_operation = true;
-var digit_pushed = false;
 
 //Funcions a utilitzar per Calc
 function agafarNum(num){

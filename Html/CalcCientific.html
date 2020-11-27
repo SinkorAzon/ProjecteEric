@@ -13,7 +13,6 @@
 <!-- Prepare for second course -->
     <script src="/Js/CalcC.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
   </head>
 
   <body>
@@ -29,6 +28,10 @@
             <span id="minutes"></span> :
             <span id="seconds"></span>
         </div>
+    </div>
+    <br>
+    <div class="usuari">
+        Login: <label id="lblUser"></label>
     </div>
 
     <div class="content">
@@ -67,12 +70,9 @@
           <input type="button" value="±" onClick="invertirSigne();">
           <input type="button" value="," onClick="agafarComa();">
           <input type="button" class="marginB" value="+" onClick="operar(1);">
-
       </form>
     </div>
-
     <input type="image" id="back" name="backImgButton" src="/Images/imgBack.png" alt="Back" onclick="window.history.back();">
-
     <script src="/Js/clock.js"></script>
   </body>
 </html>
