@@ -49,6 +49,20 @@
       <input type="image" name="nextImgButton" src="/Images/imgNext.png" alt="Next" onclick="window.history.forward();">
     </div>
     <footer>
+      <div class="coordenadesX">
+        <p class="coorX">Coordenada X:</p><input type="text" id="coorX" name="coorX" size="10" maxlength="4">
+        <p class="coorX">CoorX: <label id="lblCoorX"></label><p>
+        <br><br><br>
+      </div>
+      <div class="coordenadesY">
+        <p class="coorY">Coordenada Y:</p><input type="text" id="coorY" name="coorY" size="10" maxlength="4">
+        <p class="coorX">CoorY:<label id="lblCoorY"></label></p>
+        <br>
+      </div>
+      <div class="saveCoor">
+        <input type="button" class="guardar" value="Guardar" onclick="guardar();">
+        <input type="button" class="carregar" value="Carregar" onclick="carregar();">
+      </div>
       <h3>Creat per Eric Quintana</h3>
     </footer>
     <script src="Js/clock.js"></script>

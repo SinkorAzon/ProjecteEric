@@ -18,3 +18,19 @@ function info(){
       "Url HostName: http://" + hostUrl + "\n"
     );
 }
+
+function guardar(){
+  var coordenadaX = document.getElementById("coorX").value;
+  var coordenadaY = document.getElementById("coorY").value;
+  sessionStorage.setItem("CoordenadaX", coordenadaX);
+  sessionStorage.setItem("CoordenadaY", coordenadaY);
+  document.getElementById("coorX").value = "";
+  document.getElementById("coorY").value = "";
+}
+
+function carregar(){
+  var coordenadaX = sessionStorage.getItem("CoordenadaX");
+  var coordenadaY = sessionStorage.getItem("CoordenadaY");
+  document.getElementById("lblCoorX").innerHTML = coordenadaX;
+  document.getElementById("lblCoorY").innerHTML = coordenadaY;
+}
