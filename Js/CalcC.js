@@ -32,7 +32,7 @@ function operar(valor){
         num1 = parseFloat(document.getElementById("resultat").value);
     }
     num2 = parseFloat(num1);
-    num1 = 0;
+    num1= 0;
     res = valor;
 }
 
@@ -55,6 +55,12 @@ function esIgual(){
     refresh();
     num2 = parseFloat(num1);
     num1 = 0;
+}
+
+function deleteLastNum(){
+  var numMod = document.getElementById("resultat").value;
+  document.getElementById("resultat").value = numMod.substr(0, numMod.length - 1);
+  num1 = document.getElementById("resultat").value;
 }
 
 function refresh(){
