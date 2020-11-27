@@ -7,7 +7,7 @@ body {
 
 h1 {
   color: #600000;
-  margin-left: 12%;
+  margin-left: 5%;
 }
 
 .date, .time {
@@ -81,7 +81,7 @@ input.margin {
 }
 
 input.marginB {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 input[type=image] {
@@ -104,6 +104,6 @@ input[type=button] {
   width: 350px;
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   background-color: #C5C5C5;
 }
