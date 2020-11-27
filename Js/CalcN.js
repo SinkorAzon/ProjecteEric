@@ -1,3 +1,11 @@
+var cargar = function() {
+  var cargarUser = localStorage.getItem('Usuari');
+  document.getElementById("lblUser").innerHTML = cargarUser;
+  localStorage.clear();
+};
+
+cargar();
+
 var num1 = 0;
 var num2 = 0;
 var res;
