@@ -11,8 +11,8 @@ h1 {
 }
 
 .date, .time {
-  display: inline;
   color: white;
+  font-weight: bold;
 }
 
 h3 {
@@ -35,6 +35,11 @@ footer {
 input[type=button] {
   width: 200px;
   height: 50px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  border-color: red;
 }
 
 input[type=image] {

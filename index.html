@@ -15,7 +15,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   </head>
   <body>
-    <input input type="button" value="Time" onclick="time();">
+    <div id="content">
+        <div class="date">
+            <span id="weekDay"></span>,
+            <span id="day"></span> de
+            <span id="month"></span> del
+            <span id="year"></span>
+        </div>
+        <div class="time">
+            <span id="hours"></span> :
+            <span id="minutes"></span> :
+            <span id="seconds"></span>
+        </div>
+    </div>
     <div class="informacio">
       <input type="image" name="infoButton" src="/Images/info.png" alt="Info" onclick="info();">
     </div>
@@ -36,8 +48,9 @@
       <input type="image" name="backImgButton" src="/Images/imgBack.png" alt="Back" onclick="window.history.back();">
       <input type="image" name="nextImgButton" src="/Images/imgNext.png" alt="Next" onclick="window.history.forward();">
     </div>
+    <footer>
+      <h3>Creat per Eric Quintana</h3>
+    </footer>
+    <script src="Js/clock.js"></script>
   </body>
-  <footer>
-    <h3>Creat per Eric Quintana</h3>
-  </footer>
 </html>
