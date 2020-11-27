@@ -5,6 +5,11 @@ body {
   background-size: 100% 100%;
 }
 
+.date, .time {
+  color: white;
+  font-weight: bold;
+}
+
 h1 {
   color: #600000;
   margin-left: 5%;
