@@ -7,10 +7,10 @@ body {
 
 h1 {
   color: white;
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
-.date, .time {
+.date, .time, .usuari {
   color: white;
   font-weight: bold;
 }
@@ -41,6 +41,17 @@ input[type=button] {
   border-color: red;
 }
 
+input[type=button]#saveUser {
+  width: 100px;
+  height: 20px;
+  font-weight: bold;
+  color: white;
+  margin-left: 3%;
+  background-color: black;
+  border-radius: 30px;
+  border-color: red;
+}
+
 input[type=image] {
   width: 100px;
   height: 100px;
@@ -48,6 +59,7 @@ input[type=image] {
 
 .informacio {
   float: right;
+  display: inline;
   margin: auto auto auto auto;
 }
 
@@ -69,5 +81,11 @@ input[name="infoButton"] {
 }
 
 .saveCoor {
+  margin-bottom: 5%;
+}
+
+#user, .user {
+  display: inline;
+  font-size: 24px;
   margin-bottom: 5%;
 }

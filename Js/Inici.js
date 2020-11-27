@@ -20,17 +20,22 @@ function info(){
 }
 
 function guardar(){
+  var userLogin = document.getElementById("user").value;
   var coordenadaX = document.getElementById("coorX").value;
   var coordenadaY = document.getElementById("coorY").value;
+  localStorage.setItem("Usuari", userLogin);
   sessionStorage.setItem("CoordenadaX", coordenadaX);
   sessionStorage.setItem("CoordenadaY", coordenadaY);
   document.getElementById("coorX").value = "";
   document.getElementById("coorY").value = "";
+  document.getElementById("user").value = "";
 }
 
 function carregar(){
+  var user = localStorage.getItem("Usuari");
   var coordenadaX = sessionStorage.getItem("CoordenadaX");
   var coordenadaY = sessionStorage.getItem("CoordenadaY");
+  document.getElementById("lblUser").innerHTML = user;
   document.getElementById("lblCoorX").innerHTML = coordenadaX;
   document.getElementById("lblCoorY").innerHTML = coordenadaY;
 }

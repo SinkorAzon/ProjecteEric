@@ -16,6 +16,9 @@
   </head>
   <body>
     <div id="content">
+        <div class="informacio">
+          <input type="image" name="infoButton" src="/Images/info.png" alt="Info" onclick="info();">
+        </div>
         <div class="date">
             <span id="weekDay"></span>,
             <span id="day"></span> de
@@ -27,10 +30,12 @@
             <span id="minutes"></span> :
             <span id="seconds"></span>
         </div>
+        <br>
+        <div class="usuari">
+            Login: <label id="lblUser"></label>
+        </div>
     </div>
-    <div class="informacio">
-      <input type="image" name="infoButton" src="/Images/info.png" alt="Info" onclick="info();">
-    </div>
+
     <h1 align="center">Calculadora Eric</h1>
     <br><br>
     <div class="container">
@@ -41,18 +46,17 @@
       <a href="/Html/CalcCientific.html">
         <input type="button" value="Calculadora Cientifica">
       </a>
-      <!--<br><br>
-      <h2>Usuari :</h2>
-      <input type="textfield" name="user" />
-      <br><br>--><br><br>
+      <br><br>
+
+      <br><br>
       <input type="image" name="backImgButton" src="/Images/imgBack.png" alt="Back" onclick="window.history.back();">
       <input type="image" name="nextImgButton" src="/Images/imgNext.png" alt="Next" onclick="window.history.forward();">
     </div>
     <footer>
+      <p class="user">Usuari :</p><input type="text" id="user" name="user" size="10">
       <div class="coordenadesX">
         <p class="coorX">Coordenada X:</p><input type="text" id="coorX" name="coorX" size="10" maxlength="4">
         <p class="coorX">CoorX: <label id="lblCoorX"></label><p>
-        <br><br><br>
       </div>
       <div class="coordenadesY">
         <p class="coorY">Coordenada Y:</p><input type="text" id="coorY" name="coorY" size="10" maxlength="4">
