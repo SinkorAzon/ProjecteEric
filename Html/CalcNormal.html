@@ -17,6 +17,20 @@
 </head>
 
 <body>
+  <div id="cont">
+      <div class="date">
+          <span id="weekDay"></span>,
+          <span id="day"></span> de
+          <span id="month"></span> del
+          <span id="year"></span>
+      </div>
+      <div class="time">
+          <span id="hours"></span> :
+          <span id="minutes"></span> :
+          <span id="seconds"></span>
+      </div>
+  </div>
+  
   <div class="content">
     <form name="Calc">
         <h1>Calculadora</h1>
@@ -48,5 +62,7 @@
   </div>
 
   <input type="image" id="back" name="backImgButton" src="/Images/imgBack.png" alt="Back" onclick="window.history.back();">
+
+  <script src="/Js/clock.js"></script>
 </body>
 </html>

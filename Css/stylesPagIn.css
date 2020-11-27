@@ -1,17 +1,31 @@
-h1 {
-  color: white;
+body {
+  background-image: url('/Images/bgi2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
-h2 {
+h1 {
+  color: white;
+  margin-top: 150px;
+}
+
+.date, .time {
+  color: white;
+  font-weight: bold;
+}
+
+h3 {
   display: inline;
   color: white;
 }
 
-body {
-  background-image: url('/Images/bgi1.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+footer {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .container {
@@ -21,6 +35,11 @@ body {
 input[type=button] {
   width: 200px;
   height: 50px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  border-color: red;
 }
 
 input[type=image] {
@@ -30,7 +49,7 @@ input[type=image] {
 
 .informacio {
   float: right;
-  margin: auto 10px 10px 10px;
+  margin: auto auto auto auto;
 }
 
 input[name="infoButton"] {
