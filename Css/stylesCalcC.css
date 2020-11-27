@@ -23,7 +23,6 @@ input {
   border-radius: 20px;
 }
 
-<<<<<<< HEAD
 input#coma {
   margin-right: 54px;
 }
@@ -38,7 +37,8 @@ input#resultat {
    height: 50px;
    margin-bottom: 5px;
    margin-left: 10%;
-=======
+}
+
 input.clear {
   width: 104px;
   margin-left: 54px;
@@ -68,22 +68,20 @@ input#resultat {
    margin-bottom: 5px;
    margin-left: 10%;
    margin-right: 5%;
->>>>>>> master
    font-size: 40px;
    text-align: right;
 }
 
-<<<<<<< HEAD
 input#margin {
   margin-left: 10%;
-=======
+}
+
 input.margin {
   margin-left: 10%;
 }
 
 input.marginB {
   margin-bottom: 10%;
->>>>>>> master
 }
 
 input[type=image] {
@@ -92,8 +90,6 @@ input[type=image] {
   margin-top: 5%;
   margin-left: 5%;
 }
-<<<<<<< HEAD
-=======
 
 input[type=button] {
   color: #FFFFFF;
@@ -111,4 +107,3 @@ input[type=button] {
   padding-bottom: 5%;
   background-color: #C5C5C5;
 }
->>>>>>> master

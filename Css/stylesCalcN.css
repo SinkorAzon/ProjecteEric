@@ -12,11 +12,7 @@ body {
 
 h1 {
   color: #600000;
-<<<<<<< HEAD
-  margin-left: 20%;
-=======
   margin-left: 12%;
->>>>>>> master
 }
 
 input {
@@ -27,35 +23,27 @@ input {
   border-radius: 20px;
 }
 
-input#coma {
-  margin-right: 54px;
-}
-
-<<<<<<< HEAD
-input#clear {
-  margin-left: 20%;
+input.clear {
+  margin-left: 5%;
   width: 105px;
-=======
-input.retr {
-  width: 50px;
->>>>>>> master
 }
 
 input#resultat {
-   width: 210px;
+   width: 204px;
    height: 50px;
    margin-bottom: 5px;
-   margin-left: 20%;
+   margin-left: 5%;
+   margin-right: 5%;
    font-size: 40px;
    text-align: right;
 }
 
 input.margin {
-  margin-left: 20%;
+  margin-left: 5%;
 }
 
 input.marginB {
-  margin-bottom: 20%;
+  margin-bottom: 5%;
 }
 
 input[type=image] {
@@ -65,8 +53,19 @@ input[type=image] {
   margin-left: 5%;
 }
 
+input[type=button] {
+  color: #FFFFFF;
+  background-color: #5E5E5E;
+  font-weight: bold;
+  font-size: 16px;
+}
+
 .content {
   border-style: solid ;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin: 5% 20% 5% 20%;
+  width: 235px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  background-color: #C5C5C5;
 }
