@@ -57,6 +57,14 @@ function esIgual(){
     num1 = 0;
 }
 
+function invertirSigne(){
+  var aux = Number(document.getElementById("resultat").value);
+  aux = -aux;
+  num1 = String(aux);
+  document.getElementById("resultat").value = aux;
+  num1 = document.getElementById("resultat").value;
+}
+
 function deleteLastNum(){
   var numMod = document.getElementById("resultat").value;
   document.getElementById("resultat").value = numMod.substr(0, numMod.length - 1);
