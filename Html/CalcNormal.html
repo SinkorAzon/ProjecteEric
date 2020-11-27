@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Page Title</title>
+    <title>Calculadora</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A brief page description">
@@ -17,13 +17,33 @@
 </head>
 
 <body>
+  <div id="cont">
+      <div class="date">
+          <span id="weekDay"></span>,
+          <span id="day"></span> de
+          <span id="month"></span> del
+          <span id="year"></span>
+      </div>
+      <div class="time">
+          <span id="hours"></span> :
+          <span id="minutes"></span> :
+          <span id="seconds"></span>
+      </div>
+  </div>
+
   <div class="content">
     <form name="Calc">
         <h1>Calculadora</h1>
         <input type="textfield" id="resultat" name="ans" value="0" >
         <br>
+<<<<<<< HEAD
         <input type="button" id="clear" value="C" onClick="netejarText()">
         <input type="button" id="retr" value="Rtr" onclick="deleteLastNum()">
+=======
+        <input type="button" class="clear" value="C" onClick="netejarText();">
+        <input type="button" class="retr" value="Rtr" onclick="deleteLastNum();">
+        <input type="button" value="±" onClick="invertirSigne();">
+>>>>>>> master
         <br>
         <input type="button" class="margin" value="7" onClick="agafarNum('7')">
         <input type="button" value="8" onClick="agafarNum('8')">
@@ -48,5 +68,7 @@
   </div>
 
   <input type="image" id="back" name="backImgButton" src="/Images/imgBack.png" alt="Back" onclick="window.history.back();">
+
+  <script src="/Js/clock.js"></script>
 </body>
 </html>
