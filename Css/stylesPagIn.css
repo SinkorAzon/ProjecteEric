@@ -41,17 +41,6 @@ input[type=button] {
   border-color: red;
 }
 
-input[type=button]#saveUser {
-  width: 100px;
-  height: 20px;
-  font-weight: bold;
-  color: white;
-  margin-left: 3%;
-  background-color: black;
-  border-radius: 30px;
-  border-color: red;
-}
-
 input[type=image] {
   width: 100px;
   height: 100px;
