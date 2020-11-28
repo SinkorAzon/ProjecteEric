@@ -49,6 +49,7 @@ function operar(valor){
 
 function operarResta(){
   var neg;
+  var negative_digit = false;
 
   if (!negative_digit){
     neg = "-";
